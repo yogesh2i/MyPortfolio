@@ -1,0 +1,57 @@
+@import '../../mixins.scss';
+.n-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    @include sm{
+        justify-content: space-between;
+
+    }
+    
+}
+
+.n-name{
+    font-size: 1.3rem;
+    @include sm{
+        display: none;
+    }
+    font-weight: bold;
+    
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    @include sm{
+        justify-content: flex-end;
+
+    }
+}
+.n-list{
+    flex: 10;
+    @include sm{
+        display: none;
+    }
+
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+.n-list>ul>a>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+.n-button{
+    flex: 2;
+    
+}
