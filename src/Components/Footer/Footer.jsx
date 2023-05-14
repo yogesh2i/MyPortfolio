@@ -13,7 +13,9 @@ function Footer() {
         <div className="f-content">
             <span>yogesh12212071@gmail.com</span>
             <div className="f-icons">
+              <a href="https://instagram.com/kaptaan_00026?igshid=NTc4MTIwNjQ2YQ==" rel='noreferrer' target='_blank'>
                 <Insta color='white' size='3rem'/>
+              </a>
                 <a href="https://www.linkedin.com/in/yogesh-kumar-9b587b252" rel='noreferrer' target='_blank'>
                 <LinkedIn color='white' size='3rem'/>
                 </a>

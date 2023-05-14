@@ -35,7 +35,7 @@ function Intro() {
                 <a href="https://www.linkedin.com/in/yogesh-kumar-9b587b252" rel='noreferrer' target='_blank'>
                 <img src={LinkedIn} alt="" />
                 </a>
-                <a href="#/">
+                <a href="https://instagram.com/kaptaan_00026?igshid=NTc4MTIwNjQ2YQ==" rel='noreferrer' target='_blank'>
                 <img src={Instagram} alt="" />
                 </a>
             </div>
