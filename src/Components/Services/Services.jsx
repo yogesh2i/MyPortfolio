@@ -4,7 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Card from '../Card/Card';
-import Resume from './resume.pdf';
+import Resume from './Yogesh_resume.pdf';
 import { themeContext } from '../../Context';
 import {motion} from 'framer-motion';
 
@@ -58,7 +58,7 @@ export default function Services() {
             style={{left:'14rem'}}
             ref = {elementRef}
             className={` animation ${isVisible ? 'slide-in' : ''}`}>
-                <Card emoji={HeartEmoji} heading={'Tech Stack'} detail={"HTML, CSS, Javascript, Git, C, Python"}/>
+                <Card emoji={HeartEmoji} heading={'Tech Stack'} detail={"HTML, CSS, Javascript, Git, TypeScript"}/>
             </motion.div>
             {/* second card  */}
             <motion.div 
@@ -67,7 +67,7 @@ export default function Services() {
             transition={transition}
             className={` animation ${isVisible ? 'slide-in' : ''}`}
             style={{top:"11rem",left:"-2rem"}}>
-                <Card emoji={Glasses} heading={'Extra Stuff'} detail={"React Js, Redux, Bootstrap, SASS"}/>
+                <Card emoji={Glasses} heading={'Extra Stuff'} detail={"React Js,Next Js, Redux/toolkit, Bootstrap, SASS"}/>
             </motion.div>
             {/* third card  */}
             <motion.div 

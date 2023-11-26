@@ -3,6 +3,7 @@ import './portfolio.scss';
 import Ecommerce from '../../img/ecommerce.png';
 import Weather from '../../img/weather.jpg';
 import Todo from '../../img/todo.jpg';
+import YouTube from '../../img/YouTube.png';
 import { themeContext } from '../../Context';
 
 
@@ -18,6 +19,16 @@ export default function Portfolio() {
         <span>Portfolio</span>
         {/* slide  */}
         <div className="project_list">
+        <div className="box box-even">
+            <a href="https://main--youtube2i.netlify.app/" className='imgportfolio'><img src={YouTube} alt="" /></a>
+            <div className='text'>
+              <a href="https://main--youtube2i.netlify.app/"><span style={{ color: 'var(--orange)', cursor: 'pointer' }}>YouTube Clone</span></a>
+              <p>YouTube is a web application built using Next JS, which mimmicks the behaviour of youtube. The application utilizes Redux for data flow management and SCSS for styling and Typescript.
+                The application will display all functionalities like YouTube - playing video,get trending videos,search videos,get recommended videos.
+                To develop this application, I used Next JS as the framework due to its flexibility, scalability, and ease of use. The Redux toolkit was chosen for data flow management because it allows for global state management and makes it easier to pass data between components without having to rely on prop drilling.
+              </p>
+            </div>
+          </div>
           <div className="box">
             <div className='text'>
               <a href="https://yogesh2i.github.io/exclusive-commerce"><span style={{ color: 'var(--orange)', cursor: "pointer" }}>Exclusive Commerce</span></a>
