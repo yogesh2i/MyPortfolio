@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Services from './Components/Services/Services';
 import { themeContext } from './Context';
+import Experience from './Components/Experience/Experience';
 
 function App() {
   const theme = useContext(themeContext);
@@ -18,6 +19,7 @@ function App() {
 
      <Navbar/>
      <Intro/>
+     <Experience/>
      <Services/>
      <Portfolio/>
      <Contact/>

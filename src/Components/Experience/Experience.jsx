@@ -7,9 +7,9 @@ export default function Experience() {
     <>
       <div className="experience">
         <div className="achievement">
-            <div className="circle" style={{color:'black'}}>8+</div>
+            <div className="circle" style={{color:'black'}}>2+</div>
             <span>years</span>
-            <span>Experience</span>
+            <span>Working Experience</span>
         </div>
         <div className="achievement">
             <div className="circle" style={{color:'black'}}>20+</div>
@@ -17,7 +17,7 @@ export default function Experience() {
             <span>Projects</span>
         </div>
         <div className="achievement">
-            <div className="circle" style={{color:'black'}}>5+</div>
+            <div className="circle" style={{color:'black'}}>2+</div>
             <span>companies</span>
             <span>work</span>
         </div>

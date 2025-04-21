@@ -4,6 +4,7 @@ import Ecommerce from '../../img/ecommerce.png';
 import Weather from '../../img/weather.jpg';
 import Todo from '../../img/todo.jpg';
 import YouTube from '../../img/YouTube.png';
+import gRPC from '../../img/grpc.jpeg';
 import { themeContext } from '../../Context';
 
 
@@ -18,6 +19,13 @@ export default function Portfolio() {
         <span style={{ color: darkMode ? 'white' : '' }}>Recent Projects</span>
         <span>Portfolio</span>
         {/* slide  */}
+          <div className="box">
+            <div className='text'>
+              <a href="https://github.com/yogesh2i/grpc_Node"><span style={{ color: 'var(--orange)', cursor: "pointer" }}>gRPC Documentation</span></a>
+              <p>Recognizing the critical need for clear and accessible documentation to facilitate the adoption of gRPC within our Node.js ecosystem, I took the initiative to develop a comprehensive suite of resources. This involved a thorough understanding of gRPC concepts and Node.js implementation specifics, culminating in the creation of detailed guides, practical, runnable code examples covering various scenarios (unary, server streaming, client streaming, bidirectional streaming), and reusable templates for service definitions and client implementations. This documentation significantly reduced the learning curve for new team members, streamlined the integration of gRPC services across different Node.js applications, and minimized potential errors arising from inconsistent implementations. </p>
+            </div>
+            <a href="https://github.com/yogesh2i/grpc_Node" className='imgportfolio'><img src={gRPC} alt="" /></a>
+          </div>
         <div className="project_list">
         <div className="box box-even">
             <a href="https://main--youtube2i.netlify.app/" className='imgportfolio'><img src={YouTube} alt="" /></a>

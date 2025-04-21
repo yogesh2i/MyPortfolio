@@ -58,7 +58,7 @@ export default function Services() {
             style={{left:'14rem'}}
             ref = {elementRef}
             className={` animation ${isVisible ? 'slide-in' : ''}`}>
-                <Card emoji={HeartEmoji} heading={'Tech Stack'} detail={"HTML, CSS, Javascript, Git, TypeScript"}/>
+                <Card emoji={HeartEmoji} heading={'Tech Stack'} detail={"HTML, CSS, Javascript, Git, TypeScript, gRPC"}/>
             </motion.div>
             {/* second card  */}
             <motion.div 
